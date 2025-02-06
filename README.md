@@ -1,3 +1,3 @@
 # newRendering
 
-Contains a new approach at my homebrew rendering program
+its rendering but new (for me)
