@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            margin: 0px;
+            padding: none;
+        }
+    </style>
+</head>
+<body onload="onload()">
+    <canvas width="500" height="500" id="canvas" style="width: 100vw; height: 100vh;"></canvas>
+
+    <p id="timePerFrame"></p>
+    <p id="framesPerSecond"></p>
+    <p id="globalRotations"></p>
+    <p id="numObjects"></p>
+
+    <div id="script-links-div">
+        <script src="./classes/general/manager.js"></script>
+        <script src="./classes/general/renderer.js"></script>
+        <script src="./classes/general/time.js"></script>
+
+        <script src="./classes/controls/camera.js"></script>
+        <script src="./classes/controls/controller.js"></script>
+
+        <script src="./classes/shapes/circle.js"></script>
+        <script src="./classes/shapes/cube.js"></script>
+        <script src="./classes/shapes/polygon.js"></script>
+        <script src="./classes/shapes/sphere.js"></script>
+        <script src="./classes/shapes/triangle.js"></script>
+
+        <script src="./classes/misc/edge.js"></script>
+        <script src="./classes/misc/rgba.js"></script>
+
+        <script src="./classes/vectors/vector3.js"></script>
+
+        <script src="./testPerformance.js"></script>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
