@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            margin: 0px;
+            padding: none;
+        }
+    </style>
+</head>
+<body onload="onload()">
+    <canvas width="500" height="500" id="canvas" style="width: 100vw; height: 100vh; position: absolute; background-color: rgba(0, 0, 0, 0)"></canvas>
+    <span><samp id="output" style="width: 100vw; height: 100vh; font-size: 10px; line-height: 1;"></samp></span>
+
+    <p id="timePerFrame"></p>
+    <p id="framesPerSecond"></p>
+    <p id="framesPerSecondProjected"></p>
+    <p id="numObjects"></p>
+
+    <div id="script-links-div">
+        <script src="./classes/general/manager.js"></script>
+        <script src="./classes/general/renderer.js"></script>
+        <script src="./classes/general/time.js"></script>
+
+        <script src="./classes/controls/camera.js"></script>
+        <script src="./classes/controls/controller.js"></script>
+
+        <script src="./classes/shapes/circle.js"></script>
+        <script src="./classes/shapes/cube.js"></script>
+        <script src="./classes/shapes/polygon.js"></script>
+        <script src="./classes/shapes/sphere.js"></script>
+
+        <script src="./classes/misc/rgba.js"></script>
+
+        <script src="./classes/vectors/vector3.js"></script>
+
+        <script src="./testPerformance.js"></script>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
